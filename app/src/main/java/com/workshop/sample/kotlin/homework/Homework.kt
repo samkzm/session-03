@@ -1,4 +1,4 @@
-package com.workshop.sample.kotlin
+package com.workshop.sample.kotlin.homework
 
 fun main() {
 
