@@ -5,9 +5,9 @@ fun main(){
 
     val city_1=City("Tehran")
     val city_2=City("Shiraz")
-    val prod_1=Product("shampu",12.5)
-    val prod_2=Product("mast",22.5)
-    val prod_3=Product("chips",10.5)
+    val prod_1=Product("item1",12.5)
+    val prod_2=Product("item2",22.5)
+    val prod_3=Product("item3",10.5)
     val prolist_1= listOf<Product>(prod_1,prod_3)
     val prolist_2= listOf<Product>(prod_1,prod_2,prod_3)
     val order_1=Order(prolist_1,true)
@@ -20,6 +20,7 @@ fun main(){
     val cust_3=Customer("samane",city_1,orderlist_2)
     val cust= listOf<Customer>(cust_1,cust_2,cust_3)
     val shop1=Shop("hyper",cust)
+    
     fun max(list: List<Int>): Int? {
         if (list!=null) {
             var max1 = list[0]
